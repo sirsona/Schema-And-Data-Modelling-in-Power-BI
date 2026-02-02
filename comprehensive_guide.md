@@ -100,6 +100,7 @@ Power Bi mainly uses two schema designs
 
 A star schema is a data modelling design where a central fact table is directly
 connected to multiple dimension tables. The structure resembles a star.
+![Star Schema](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j09gmuuibtxyexwfnnkl.png)
 
 #### Advantages of Star Schema
 
@@ -129,6 +130,7 @@ Each Dimension connects directly to the fact table.
 
 A snowflake schema is a more complex version of a star schema where dimension
 tables are normalized into multiple related tables.
+![Snowflake Schema](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jde16opc8my8txb1o7ku.png)
 
 #### Advantages of Snowflake Schema
 
